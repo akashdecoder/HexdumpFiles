@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/HexdumpFiles.dir/main.c.o CMakeFiles/HexdumpFiles.dir/HexConverter/hexConverter.c.o CMakeFiles/HexdumpFiles.dir/FileOperations/fileOperations.c.o  -o HexdumpFiles 

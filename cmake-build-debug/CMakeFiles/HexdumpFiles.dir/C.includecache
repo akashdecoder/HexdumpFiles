@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akash/CLionProjects/HexdumpFiles/FileOperations/fileOperations.h
+
+/home/akash/CLionProjects/HexdumpFiles/HexConverter/hexConverter.h
+
+/home/akash/CLionProjects/HexdumpFiles/hex.h
+
+/home/akash/CLionProjects/HexdumpFiles/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+HexConverter/hexConverter.h
+/home/akash/CLionProjects/HexdumpFiles/HexConverter/hexConverter.h
+FileOperations/fileOperations.h
+/home/akash/CLionProjects/HexdumpFiles/FileOperations/fileOperations.h
+hex.h
+/home/akash/CLionProjects/HexdumpFiles/hex.h
+

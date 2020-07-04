@@ -1,0 +1,11 @@
+encapsulate's,the datalink layer of the destination host needs to decapsulate but each intermediate node needs to both encapsulate and decapsulate.
+One may ask why we need encapsulation and decapsulation at each intermediate node.
+The reason is that each link may be using a different protocol with a different frame format.
+Even if one link and the next are using the same protocol encapsulation and decapsulation are needed because the linklayer addresses are normally different.
+An analogy may help in this case.
+Assume a person needs to travel from her home to her friend home inanother city.
+The traveller can use three transportation tools. She can take a taxi to go to the train station in her own city then travel on the train from her own city to the city where her friend lives and finally reach her friend home using another taxi.
+Here we have a source node a destination node and two intermediate nodes.
+The traveller needs to get into the taxi at the source node get out of the taxi and get into the train at the first intermediate node train station in the city where she lives get out of the train and get into another taxi at the second intermediate node train station in the city where her friend lives and finally get out of the taxi when she arrives at her destination.
+A kind of encapsulation occurs at the source node, encapsulation and decapsulation occur at the intermediate nodes and decapsulation occurs at the destination node.
+Our traveller is the same but she uses three transporting tools to reach the destination.
